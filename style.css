@@ -1,19 +1,406 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap");
 body{
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+}
+.logo-img{
+  height: 40px;
+  object-fit: contain;
+}
+.carousel-inner img{
+  height: 360px;
+}
+.carousel-inner.carousel-item .active img{
+  height: 360px;
+}
+.carousel-caption h1{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.carousel-item .carousel-caption .text-white h1{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.Get-Quote button{
+  width: 90px;
+  height: 41px;
+  border-radius: 5px;
+  border: none;
+  background-color: orange;
+  color:white
+}
+.icon-bar {
+  position: fixed;
+  top: 40%;
+  left: 0px;
+  z-index: 99;
+}
+.icon-bar div {
+  display: block;
+  text-align: center;
+  padding: 10px 13px;
+  transition: all 0.3s ease;
+  color: white;
+  border: 1px solid #fff;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.phone{
+  background-color: #0000ff;
+}
+.whatapp{
+  background-color: #008000;
+}
+.message{
+  background-color: #ff0000;
 }
 
-/* .logo-img {
-  width: 236px;
-} */
+/* about css */
+.about-image img{
+  width: 212px;
+  height: auto;
+  /* margin-left: 15px; */
+}
+.about-contant{
+  text-align: center;
+}
+.about-contant .small-title{
+  color: orange;
+  font-size: 13px;
 
-@media (max-width: 236px) {
+}
+.about-contant p{
+  color: #4b5280;
+  font-size: 14px;
+}
+.about-contant h2{
+  font-weight: 600;
+}
+.list h3{
+  color: #4b5280;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+
+
+@media(max-width: 236px) {
   .logo-img {
-    width: 100px;
+    max-width: 100px;
+    height: auto;
+  }
+  .navbar-toggler{
+    position: relative;
+    bottom: 5px;
+  }
+  .carousel-inner img{
+    height: 360px;
+
+  }
+  .carousel-caption h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .carousel-item .carousel-caption .text-white h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .Get-Quote button{
+    margin-bottom: 10px;
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+  .about-image img{
+    width: 210px;
+    height: auto;
+    margin-left: 8px;
+  }
+  .about-list{
+    text-align: initial;
+  }
+  .more-about-us button{
+    height: 42px;
+    width: 143px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+  }
+  
+}
+
+@media (min-width: 236px) {
+
+  .about-image img{
+    width: 250px;
+    height: auto;
+    margin-left: 8px;
+  }
+  
+}
+
+
+@media(min-width: 236px)and(max-width: 576px){
+  .logo-img {
+    max-width: 100px;
+    height: auto;
+  }
+  .navbar-toggler{
+    position: relative;
+    bottom: 1px;
+  }
+  .carousel-inner img{
+    height: 360px;
+  }
+  .carousel-caption h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .carousel-item .carousel-caption .text-white h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .Get-Quote button{
+    margin-bottom: 10px;
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+  .about-image img {
+    width: 210px;
+    height: auto;
+    margin-left: 8px;
+  }
+  .about-list{
+    text-align: initial;
+  }
+  .more-about-us button{
+    height: 42px;
+    width: 143px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+  }
+  
+
+
+}
+
+
+
+@media(min-width: 576px) {
+  .logo-img {
+    max-width: 140px;
+    height: auto;
+  }
+  .logo-img{
+    max-width: 100px;
   }
   .navbar-toggler{
     position: relative;
     bottom: 6px;
   }
+  .carousel-caption h1{
+    font-size: 30px;
+    margin-bottom: 83px;
+  }
+  .carousel-item .carousel-caption .text-white h1{
+    font-size: 30px;
+    margin-bottom: 83px;
+  }
+  .Get-Quote button{
+    position: relative;
+    bottom: 55px;
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+  .about-image img{
+    width: 600px;
+    height: auto;
+    margin-left: 8px;
+  }
+  .about-list{
+    text-align: initial;
+  }
+  .more-about-us button{
+    height: 42px;
+    width: 143px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+}
+
+@media(min-width: 768px){
+  .carousel-caption h1{
+    font-size: 30px;
+    margin-bottom: 90px;
+  }
+  .carousel-item .carousel-caption .text-white h1{
+    font-size: 30px;
+    margin-bottom: 83px;
+  }
+  .Get-Quote button{
+    position: relative;
+    bottom: 80px;
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+  .about-list{
+    text-align: initial;
+  }
+  .more-about-us button{
+    height: 42px;
+    width: 143px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+
+
+@media(min-width: 992px){
+  .logo-img {
+    max-width: 180px;
+    height: auto;
+  }
+  .logo-img{
+    max-width: 180px;
+  }
+  .navbar-toggler{
+    position: relative;
+    bottom: 6px;
+  }
+  .carousel-caption h1{
+    font-size: 36px;
+    margin-bottom: 79px;
+    margin-left: 425px;
+    text-align: initial;
+  }
+  .carousel-item .carousel-caption .text-white h1{
+    font-size: 36px;
+    margin-bottom: 79px;
+    margin-left: 425px;
+    text-align: initial;
+  }
+  .Get-Quote button{
+    position: relative;
+    left: 122px;
+    bottom: 70px;
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+  .about-list{
+    text-align: initial;
+  }
+  .more-about-us button{
+    height: 42px;
+    width: 143px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+  }
 
 }
+
+@media(min-width: 1200px){
+  .logo-img{
+    max-width: 210px;
+  }
+  .carousel-caption h1{
+    font-size: 54px;
+    margin-bottom: 79px;
+    margin-left: 518px;
+    text-align: initial;
+  }
+  .Get-Quote button{
+    position: relative;
+    left: 105px;
+    bottom: 70px;
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+  .about-list{
+    text-align: initial;
+  }
+  .more-about-us button{
+    height: 42px;
+    width: 143px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+  }
+
+
+}
+
+/* @media(min-width: 1400px){
+  .logo-img{
+    max-width: 210px;
+  }
+  .carousel-caption h1{
+    font-size: 55px;
+    margin-bottom: 79px;
+    margin-left: 518px;
+    text-align: initial;
+  }
+  .Get-Quote button{
+    position: relative;
+    left: 65px;
+    bottom: 70px;
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
