@@ -84,6 +84,9 @@ body{
   font-weight: 500;
 
 }
+.container{
+  margin-top: 300px;
+}
 
 
 
@@ -133,8 +136,46 @@ body{
     border: none;
     border-radius: 5px;
   }
-  
+  .circle-box{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+  }
+  .circle-box button{
+    width: 80px;
+    height: 80px;
+    border-radius: 51px;
+    border: none;
+    background-color: antiquewhite;
+  }
+  .card{
+    background-color: #1b1464;
+    width: 250px;
+    
+  }
+  .card-title{
+    text-align: center;
+    color: white;
+  }
+  .card-body p{
+    color: white;
+    text-align: center;
+  }
+  .small-title{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+  }
+  .services{
+    text-align: center;
+    font-size: 30px;
+  }
 }
+
+  
+
+  
+
 
 @media (min-width: 236px) {
 
@@ -192,6 +233,39 @@ body{
     border: none;
     border-radius: 5px;
   }
+
+  .circle-box{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+  }
+  .circle-box button{
+    width: 80px;
+    height: 80px;
+    border-radius: 51px;
+    border: none;
+    background-color: antiquewhite;
+  }
+  .card{
+    background-color: #1b1464;
+  }
+  .card-title{
+    text-align: center;
+    color: white;
+  }
+  .card-body p{
+    color: white;
+    text-align: center;
+  }
+  .small-title{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+  }
+  .services{
+    text-align: center;
+    font-size: 30px;
+  }
   
 
 
@@ -245,6 +319,40 @@ body{
     border: none;
     border-radius: 5px;
   }
+
+  .circle-box{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+  }
+  .circle-box button{
+    width: 80px;
+    height: 80px;
+    border-radius: 51px;
+    border: none;
+    background-color: antiquewhite;
+  }
+  .card{
+    background-color: #1b1464;
+    width: 400px;
+  }
+  .card-title{
+    text-align: center;
+    color: white;
+  }
+  .card-body p{
+    color: white;
+    text-align: center;
+  }
+  .small-title{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+  }
+  .services{
+    text-align: center;
+    font-size: 30px;
+  }
   
   
 }
@@ -278,6 +386,45 @@ body{
     background-color: orange;
     border: none;
     border-radius: 5px;
+  }
+  .about-image img{
+    width: 600px;
+    height: auto;
+    margin-left: 8px;
+  }
+
+  .circle-box{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+  }
+  .circle-box button{
+    width: 80px;
+    height: 80px;
+    border-radius: 51px;
+    border: none;
+    background-color: antiquewhite;
+  }
+  .card{
+    background-color: #1b1464;
+    width: 317px;
+  }
+  .card-title{
+    text-align: center;
+    color: white;
+  }
+  .card-body p{
+    color: white;
+    text-align: center;
+  }
+  .small-title{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+  }
+  .services{
+    text-align: center;
+    font-size: 30px;
   }
 }
 
@@ -320,14 +467,84 @@ body{
   }
   .about-list{
     text-align: initial;
+    position: relative;
+    top: -15px;
+    display: inline;
   }
   .more-about-us button{
+    position: relative;
+    right: 289px;
+    bottom: -117px;
     height: 42px;
     width: 143px;
     color: white;
     background-color: orange;
     border: none;
     border-radius: 5px;
+  }
+  .about-image img{
+    width: 475px;
+    height: auto;
+    margin-left: 8px;
+  }
+  .about-image{
+    display: flex;
+  }
+  .about-contant{
+    padding: 51px;
+    text-align: initial;
+    margin-top: 0px;
+    margin-left: -26px;
+  }
+  .about-contant .small-title {
+    color: orange;
+    font-size: 14px;
+  }
+  .about-contant h2 {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .about-contant p {
+    color: #4b5280;
+    font-size: 14px;
+    padding: 0px;
+  }
+  .about-list li{
+    display: flex;
+  }
+
+  .circle-box{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+  }
+  .circle-box button{
+    width: 80px;
+    height: 80px;
+    border-radius: 51px;
+    border: none;
+    background-color: antiquewhite;
+  }
+  .card{
+    background-color: #1b1464;
+    width: 300px;
+  }
+  .card-title{
+    text-align: center;
+    color: white;
+  }
+  .card-body p{
+    color: white;
+    text-align: center;
+  }
+  .small-title{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+  }
+  .services{
+    text-align: center;
+    font-size: 30px;
   }
 
 }
@@ -355,8 +572,12 @@ body{
   }
   .about-list{
     text-align: initial;
+    display: contents;
   }
   .more-about-us button{
+    position: relative;
+    top: 100px;
+    right: 422px;
     height: 42px;
     width: 143px;
     color: white;
@@ -364,6 +585,73 @@ body{
     border: none;
     border-radius: 5px;
   }
+  .about-image img{
+    width: 560px;
+    height: auto;
+    margin-left: 63px;
+  }
+  .about-image{
+    display: flex;
+  }
+  .about-contant{
+    padding: 51px;
+    text-align: initial;
+    margin-top: 0px;
+    margin-left: 31px;
+  }
+  .about-contant .small-title {
+    color: orange;
+    font-size: 18px;
+  }
+  .about-contant h2 {
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .about-contant p {
+    color: #4b5280;
+    font-size: 16px;
+  }
+  .about-list li{
+    display: flex;
+  }
+
+  .circle-box{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+  }
+  .circle-box button{
+    width: 80px;
+    height: 80px;
+    border-radius: 51px;
+    border: none;
+    background-color: antiquewhite;
+  }
+  .card{
+    background-color: #1b1464;
+    width: 355px;
+  }
+  .card-title{
+    text-align: center;
+    color: white;
+  }
+  .card-body p{
+    color: white;
+    text-align: center;
+  }
+  .small-title{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+  }
+  .services{
+    text-align: center;
+    font-size: 30px;
+  }
+  .btn .btn-warning{
+    margin-left: 200px;
+  }
+
 
 
 }
