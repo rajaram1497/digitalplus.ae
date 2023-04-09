@@ -3,6 +3,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 550;
+  max-width: 1321px;
 }
 .logo-img{
   height: 40px;
@@ -170,6 +171,14 @@ body{
     text-align: center;
     font-size: 30px;
   }
+  .device p{
+    position: relative;
+    top: 48px;
+    right: 42px;
+  }
+  .device h1{
+    font-size: 20px;
+  }
 }
 
   
@@ -188,7 +197,7 @@ body{
 }
 
 
-@media(min-width: 236px)and(max-width: 576px){
+@media(min-width: 237px)and(max-width: 576px){
   .logo-img {
     max-width: 100px;
     height: auto;
@@ -265,6 +274,14 @@ body{
   .services{
     text-align: center;
     font-size: 30px;
+  }
+  .device p{
+    position: relative;
+    top: 28px;
+    right: 42px;
+  }
+  .device h1{
+    font-size: 20px;
   }
   
 
@@ -353,6 +370,14 @@ body{
     text-align: center;
     font-size: 30px;
   }
+  .device p{
+    position: relative;
+    top: 28px;
+    right: 42px;
+  }
+  .device h1{
+    font-size: 20px;
+  }
   
   
 }
@@ -425,6 +450,14 @@ body{
   .services{
     text-align: center;
     font-size: 30px;
+  }
+  .device p{
+    position: relative;
+    top: 28px;
+    right: 42px;
+  }
+  .device h1{
+    font-size: 20px;
   }
 }
 
@@ -546,6 +579,14 @@ body{
     text-align: center;
     font-size: 30px;
   }
+  .device p{
+    position: relative;
+    top: 28px;
+    right: 42px;
+  }
+  .device h1{
+    font-size: 20px;
+  }
 
 }
 
@@ -651,6 +692,22 @@ body{
   .btn .btn-warning{
     margin-left: 200px;
   }
+  .device h1{
+    font-size: 20px;
+  }
+  .device p{
+    position: relative;
+    top: 28px;
+    right: 42px;
+  }
+  .btn-danger{
+    margin-top: 10px;
+    position: absolute;
+    left: 595px;
+    width: 125px;
+  }
+
+  
 
 
 
