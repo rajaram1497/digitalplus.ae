@@ -3,7 +3,6 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 550;
-  max-width: 1321px;
 }
 .logo-img{
   height: 40px;
@@ -459,6 +458,7 @@ body{
   .device h1{
     font-size: 20px;
   }
+  
 }
 
 
