@@ -3,7 +3,7 @@ body{
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: 550;
-  /* overflow: hidden; */
+  /* max-width: 1200px; */
 }
 .i:hover{
     background-color: orange;
@@ -64,6 +64,8 @@ body{
     display: flex;
 
   }
+
+  
   
   /* about css */
   .about-image img{
@@ -225,18 +227,6 @@ body{
       .about-contant{
           margin-top: 13px;
       }
-       /* .img-thumbnail .image-1{
-        border-radius: 9.25rem;
-      }
-      .multi-images .image-2 .img-thumbnail{
-        border-radius: 9.25rem;
-      }
-      .multi-images .image-3 .img-thumbnail{
-        border-radius: 9.25rem;
-      }
-      .multi-images .image-4 .img-thumbnail{
-        border-radius: 9.25rem;
-      } */
 
       .img-thumbnail-1{
         padding: 0.25rem;
@@ -245,6 +235,13 @@ body{
         max-width: 100%;
         height: auto;
     } 
+    .container-11 {
+      margin-top: 60px;
+      max-width: 1321px;
+      font-size: 25px;
+  }
+  
+ 
 }
     
     
