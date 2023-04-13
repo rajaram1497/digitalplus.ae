@@ -3,7 +3,7 @@ body{
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: 550;
-  /* max-width: 1200px; */
+  max-width: 1350px;
 }
 .i:hover{
     background-color: orange;
@@ -65,5 +65,171 @@ body{
 }
 
 @media(min-width: 236px){
+
+  .logo-img{
+    max-width: 126px;
+  }
+  .top-heading {
+  position: relative;
+  left: -1px;
+  bottom: -63px;
+  text-align: center;
+  color: white ; 
+
+  }
+  .container-fluid img{
+    position: relative;
+    left: 80px;
+    top: 64px;
+    max-width: 50px;
+  }
+  .container-fluid{
+    background-color: #080e32;
+    height: 407px;
+  }
+  .top-heading h1{
+    font-weight: 800px;
+    font-size: 27px;
+  }
+  .float-left{
+    max-width: 213px;
+    height: auto;
+  }
+  .sub-title{
+    font-size: 12px;
+    text-align: center;
+    color: orange;
+  }
+  .contant h1{
+    font-size: 31px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+    
+}
+@media(min-width: 576px){
+  .container-fluid img{
+    position: relative;
+    left: 80px;
+    top: 64px;
+    max-width: 500px;
+  }
+  .container-fluid{
+    background-color: #080e32;
+    height: 970px;
+  }
+    .top-heading h1{
+    font-weight: 800px;
+    font-size: 27px;
+  }
+  .float-left{
+    max-width: 482px;
+    height: auto;
+  }
+}
+@media(min-width: 768px){
+  .container-fluid img{
+    position: relative;
+    left: 80px;
+    top: 64px;
+    max-width: 500px;
+  }
+  .container-fluid{
+    background-color: #080e32;
+    height: 1000px;
+  }
+  .top-heading h1{
+    font-weight: 800px;
+    font-size: 27px;
+  }
+  .float-left{
+    max-width: 660px;
+    height: auto;
+  }
+  
+}
+@media(min-width: 992px){
+  .container-fluid img{
+    position: relative;
+    left: 140px;
+    top: 64px;
+    max-width: 319px;
+  }
+  .container-fluid{
+    background-color: #080e32;
+    height: 543px;
+  }
+  .top-heading {
+    position: relative;
+    left: 584px;
+    bottom: 268px;
+    color: white ; 
+    max-width: 550px;
+    text-align: initial;
+  }
+  .top-heading h1{
+    font-weight: 800;
+    font-size: 47px;
+  }
+  .top-heading p{
+    font-size: 19px;
+  }
+  .btn-warning{
+    width: 130px;
+    height: 50px;
+
+  }
+  .float-left {
+    max-width: 400px;
+    height: auto;
+    margin-left: 516px;
+  }
+}
+
+@media(min-width: 1200px){
+  .container-fluid img{
+    position: relative;
+    left: 140px;
+    top: 64px;
+    max-width: 398px;
+  }
+  .top-heading {
+    position: relative;
+    left: 607px;
+    bottom: 397px;
+    color: white ; 
+    max-width: 550px;
+    text-align: initial;
+  }
+    .top-heading h1{
+      font-weight: 800;
+      font-size: 60px;
+    }
+    .top-heading p{
+      font-size: 16px;
+      margin-top: 28px;
+    }
+    .btn-warning{
+      width: 130px;
+      height: 50px;
+
+    }
+    .container-fluid{
+      background-color: #080e32;
+      height: 661px;
+    }
+    .float-left {
+      max-width: 400px;
+      height: auto;
+      margin-left: 700px;
+    }
+  /* .top-heading h1 {
+    margin-bottom: 20px;
+  }
+  .top-heading p{
+    margin-bottom: 27px;
+  } */
     
 }
