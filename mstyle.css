@@ -64,6 +64,7 @@ body{
     display: flex;
 }
 
+
 @media(min-width: 236px){
 
   .logo-img{
@@ -107,6 +108,12 @@ body{
     margin-top: 15px;
   }
 
+  .live-image{
+    max-width: 206px;
+    height: auto;
+  }
+
+
     
 }
 @media(min-width: 576px){
@@ -125,7 +132,12 @@ body{
     font-size: 27px;
   }
   .float-left{
+    display: flex;
     max-width: 482px;
+    height: auto;
+  }
+  .live-image{
+    max-width: 505px;
     height: auto;
   }
 }
@@ -146,6 +158,10 @@ body{
   }
   .float-left{
     max-width: 660px;
+    height: auto;
+  }
+  .live-image{
+    max-width: 690px;
     height: auto;
   }
   
@@ -182,9 +198,14 @@ body{
 
   }
   .float-left {
-    max-width: 400px;
+    max-width: 479px;
     height: auto;
-    margin-left: 516px;
+    margin-left: 0px;
+  }
+  .live-image{
+    display: flex;
+    max-width: 600px;
+    height: auto;
   }
 }
 
@@ -221,15 +242,36 @@ body{
       height: 661px;
     }
     .float-left {
-      max-width: 400px;
+      max-width: 470px;
       height: auto;
-      margin-left: 700px;
+      margin-left: 125px;
     }
-  /* .top-heading h1 {
-    margin-bottom: 20px;
-  }
-  .top-heading p{
-    margin-bottom: 27px;
-  } */
+    .container{
+      max-width: 1207px;
+    }
+    .overview-box{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .overview-content{
+      /* margin-left: 86px; */
+      width: 500px;
+    }
+    .sub-title{
+      font-size: 12px;
+      text-align: initial;
+      color: orange;
+    }
+    .contant h1{
+      font-size: 31px;
+      font-weight: 800;
+      text-align: initial;
+    }
+    .live-image{
+      max-width: 706px;
+      height: auto;
+    }
+ 
+
     
 }
