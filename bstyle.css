@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap");
+body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  /* max-width: 1200px; */
+}
+.i:hover{
+    background-color: orange;
+  }
+.logo-img{
+    height: 40px;
+    object-fit: contain;
+  }
+  .carousel-inner img{
+    height: 360px;
+  }
+  .carousel-inner.carousel-item .active img{
+    height: 360px;
+  }
+  .carousel-caption h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .carousel-item .carousel-caption .text-white h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .Get-Quote button{
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+  .icon-bar {
+    position: fixed;
+    top: 40%;
+    left: 0px;
+    z-index: 99;
+  }
+  .icon-bar div {
+    display: block;
+    text-align: center;
+    padding: 10px 13px;
+    transition: all 0.3s ease;
+    color: white;
+    border: 1px solid #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  .phone{
+    background-color: #0000ff;
+  }
+  .whatapp{
+    background-color: #008000;
+  }
+  .message{
+    background-color: #ff0000;
+  }
+  .order li{
+    display: flex;
+
+  }
+
+  
+  
+  /* about css */
+  .about-image img{
+    width: 226px;
+    height: auto;
+    /* margin-left: 15px; */
+  }
+  .about-contant{
+    text-align: center;
+  }
+  .about-contant .small-title{
+    color: orange;
+    font-size: 13px;
+  
+  }
+  .about-contant p{
+    color: #4b5280;
+    font-size: 14px;
+  }
+  .about-contant h2{
+    font-weight: 600;
+  }
+  .list h3{
+    color: #4b5280;
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  .container{
+    margin-top: 300px;
+}
+.animation{
+    background-color: #080e32;
+}
+
+
+@media(min-width: 236px){
+    .logo-img{
+      max-width: 126px;
+    }
+    .container{
+        position: relative;
+        bottom: 140px;
+    }
+    .container h1{
+        font-size: 33px;
+        font-weight: 900;
+        color: white;
+        margin-left: 57px;
+    }
+    .container{
+        text-align: center;
+    }
+    .card{
+        background-color: #1b1464;
+        width: 200px;
+        margin-top: 40px;
+        
+      }
+      .card-title{
+        text-align: center;
+        color: white;
+      }
+      .card-body p{
+        color: white;
+        text-align: center;
+      }
+      .circle-box button {
+        width: 60px;
+        height: 60px;
+        border-radius: 70px;
+        border: none;
+        margin-top: -30px;
+        background-color: antiquewhite;
+      }
+      .circle-box {
+        margin-top: 53px;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media(min-width: 576px){
+    .container{
+        text-align: center;
+    }
+    .card {
+        background-color: #1b1464;
+        width: 370px;
+        margin-top: 40px;
+      }
+
+}
+
+@media(min-width: 768px){
+    .container{
+        text-align: center;
+    }
+    .card {
+        background-color: #1b1464;
+        width: 370px;
+        margin-top: 40px;
+      }
+    
+}
+
+@media(min-width: 992px){
+    .container{
+        text-align: initial;
+    }
+    .card {
+        background-color: #1b1464;
+        width: 295px;
+        margin-top: 40px;
+        height: 280px;
+      }
+}
+
+@media(min-width: 1200px){
+    .container{
+        text-align: initial;
+    }
+    .card {
+        background-color: #1b1464;
+        width: 370px;
+        margin-top: 40px;
+      }
+}
+
+@media(min-width: 1400px){
+    .container{
+        text-align: initial;
+    }
+}
+
