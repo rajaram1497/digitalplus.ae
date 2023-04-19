@@ -282,7 +282,7 @@ body{
       .get-start h1{
         text-align: center;
         position: relative;
-        top: 155px;
+        top: 145px;
         font-size: 1.75rem;
         font-weight: 800;
       }
@@ -292,7 +292,7 @@ body{
         margin-top: 220px;
       }
       .btn-danger{
-        margin-left: 530px;
+        margin-left: 570px;
         margin-top: 15px; 
         width: 130px;
         height: 40px;
@@ -309,31 +309,6 @@ body{
 @media(min-width: 1400px){
     .container{
         text-align: initial;
-    }
-    .get-start h1{
-      text-align: center;
-      position: relative;
-      top: 215px;
-      font-size: 1.75rem;
-      font-weight: 800;
-    }
-    .form {
-      height: 390px;
-      background-color: #f68b1f;
-      margin-top: 220px;
-    }
-    .btn-danger{
-      margin-left: 600px;
-      margin-top: 15px; 
-      width: 130px;
-      height: 40px;
-    }
-    .get-start h1{
-      text-align: center;
-      position: relative;
-      top: 205px;
-      font-size: 1.75rem;
-      font-weight: 800;
     }
 }
 
