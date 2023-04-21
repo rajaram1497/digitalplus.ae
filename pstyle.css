@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap");
+body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  /* max-width: 1200px; */
+}
+.i:hover{
+    background-color: orange;
+  }
+.logo-img{
+    height: 40px;
+    object-fit: contain;
+  }
+  .carousel-inner img{
+    height: 360px;
+  }
+  .carousel-inner.carousel-item .active img{
+    height: 360px;
+  }
+  .carousel-caption h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .carousel-item .carousel-caption .text-white h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .Get-Quote button{
+    width: 90px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color:white
+  }
+  .icon-bar {
+    position: fixed;
+    top: 40%;
+    left: 0px;
+    z-index: 99;
+  }
+  .icon-bar div {
+    display: block;
+    text-align: center;
+    padding: 10px 13px;
+    transition: all 0.3s ease;
+    color: white;
+    border: 1px solid #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  .phone{
+    background-color: #0000ff;
+  }
+  .whatapp{
+    background-color: #008000;
+  }
+  .message{
+    background-color: #ff0000;
+  }
+  .order li{
+    display: flex;
+
+  }
+
+  
+  
+  /* about css */
+  .about-image img{
+    width: 226px;
+    height: auto;
+    /* margin-left: 15px; */
+  }
+  .about-contant{
+    text-align: center;
+  }
+  .about-contant .small-title{
+    color: orange;
+    font-size: 13px;
+  
+  }
+  .about-contant p{
+    color: #4b5280;
+    font-size: 14px;
+  }
+  .about-contant h2{
+    font-weight: 600;
+  }
+  .list h3{
+    color: #4b5280;
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  .container{
+    margin-top: 300px;
+}
+.animation{
+    background-color: #080e32;
+}
+
+
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 19px;
+    /* letter-spacing: .1rem; */
+    /* font-weight: bold; */
+  }
+  
+  .pricing .card-price {
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 0px;
+    margin-top: 20px;
+    font-weight: 800;
+    color: orange;
+  }
+  
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  .card-body{
+    padding: 4rem;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+@media(min-width: 236px){
+    .logo-img{
+      max-width: 126px;
+    }
+    .container{
+        position: relative;
+        bottom: 140px;
+    }
+    .container h1 {
+      font-size: 27px;
+      font-weight: 900;
+      color: white;
+      margin-left: 55px;
+      position: relative;
+      top: 65px;
+      text-align: initial;
+    }
+    .container{
+        text-align: center;
+    }
+
+      .tabs {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 172px;
+        justify-content: center;
+        margin-left: 30px;
+      }
+      .group-tabs button{
+        width: 150px;
+        height: 50px;
+      }
+
+
+
+}
+@media(min-width: 576px){
+    .container{
+        text-align: center;
+    }
+      .tabs {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 172px;
+        justify-content: center;
+        margin-left: 207px;
+      }
+      .tabs button {
+        border-radius: 10px;
+        width: 170px;
+        height: 50px;
+      }
+
+
+}
+
+@media(min-width: 768px){
+    .container{
+        text-align: center;
+    }
+    .tabs {
+        text-align: center;
+        display: flex;
+        width: 100px;
+        height: 172px;
+        justify-content: center;
+        margin-left: 30px;
+      }
+      .tabs button {
+        border-radius: 10px;
+        width: 170px;
+        height: 50px;
+      }
+
+    
+}
+
+@media(min-width: 992px){
+    .container{
+        text-align: initial;
+    }
+    .tabs {
+        text-align: center;
+        display: flex;
+        flex-direction: r;
+        width: 100px;
+        height: 172px;
+        justify-content: center;
+        margin-left: 30px;
+      }
+      .tabs button {
+        border-radius: 10px;
+        width: 170px;
+        height: 50px;
+      }
+      .group-tabs{
+        margin-left: 240px;
+      }
+
+
+@media(min-width: 1200px){
+
+  .container h1 {
+    font-size: 42px;
+    font-weight: 900;
+    color: white;
+    margin-left: 55px;
+    position: relative;
+    top: 65px;
+    text-align: initial;
+  }
+
+  .logo-img {
+    max-width: 190px;
+  }
+    .container{
+        text-align: initial;
+    }
+    .tabs {
+        text-align: center;
+        display: flex;
+        width: 100px;
+        height: 172px;
+        justify-content: center;
+        margin-left: 30px;
+      }
+      .tabs button {
+        border-radius: 10px;
+        width: 170px;
+        height: 50px;
+      }
+      .group-tabs{
+        margin-left: 350px;
+      }
+    
+}
+
+@media(min-width: 1348px){
+    .container{
+        text-align: initial;
+    }
+    .tabs {
+        text-align: center;
+        display: flex;
+        width: 100px;
+        height: 172px;
+        justify-content: center;
+        margin-left: 30px;
+      }
+      .tabs button {
+        border-radius: 10px;
+        width: 170px;
+        height: 50px;
+      }
+}
+
+}
