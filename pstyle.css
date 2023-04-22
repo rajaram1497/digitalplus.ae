@@ -208,6 +208,27 @@ body{
         width: 150px;
         height: 50px;
       }
+      .package-button{
+        position: relative;
+        top: 48px;
+        width: 155px;
+        left: -77px;
+      }
+      .img-thumbnail{
+        max-width: 210px;
+      }
+      .work-image{
+        text-align: center;
+      }
+      .title{
+        font-size: 25px;
+        font-weight: 800;
+      }
+      .contact-image img{
+        max-width: 200px;
+      }
+
+      
 
 
 
@@ -230,6 +251,25 @@ body{
         width: 170px;
         height: 50px;
       }
+      .package-button{
+        position: relative;
+        top: 48px;
+        width: 155px;
+        left: -77px;
+      }
+      .img-thumbnail{
+        max-width: 260px;
+      }
+      .work-image{
+        text-align: center;
+      }
+      .title{
+        font-size: 25px;
+        font-weight: 800;
+      }
+      .contact-image img{
+        max-width: 500px;
+      }
 
 
 }
@@ -251,6 +291,27 @@ body{
         width: 170px;
         height: 50px;
       }
+      .package-button{
+        position: relative;
+        top: 48px;
+        width: 155px;
+        left: -77px;
+      }
+      .img-thumbnail{
+        max-width: 350px;
+      }
+      .work-image{
+        text-align: center;
+      }
+      .title{
+        font-size: 30px;
+        font-weight: 800;
+      }
+      .contact-image img{
+        max-width: 200px;
+      }
+      
+
 
     
 }
@@ -275,6 +336,25 @@ body{
       }
       .group-tabs{
         margin-left: 240px;
+      }
+      .package-button{
+        position: relative;
+        top: 48px;
+        width: 155px;
+        left: -77px;
+      }
+      .img-thumbnail{
+        max-width: 200px;
+      }
+      .work-image{
+        text-align: center;
+      }
+      .title{
+        font-size: 35px;
+        font-weight: 800;
+      }
+      .contact-image img{
+        max-width: 400px;
       }
 
 
@@ -311,6 +391,37 @@ body{
       }
       .group-tabs{
         margin-left: 350px;
+      }
+      .package-button{
+        position: relative;
+        top: 48px;
+        width: 304px;
+        left: -77px;
+      }
+      .package-buttons{
+        position: relative;
+        top: 29px;
+        width: 304px;
+        left: -40px;
+      }
+      .package-buttonss{
+        position: relative;
+        top: 29px;
+        width: 304px;
+        left: -40px;
+      }
+      .img-thumbnail{
+        max-width: 250px;
+      }
+      .work-image{
+        text-align: center;
+      }
+      .title{
+        font-size: 40px;
+        font-weight: 800;
+      }
+      .contact-image img{
+        max-width: 600px;
       }
     
 }
