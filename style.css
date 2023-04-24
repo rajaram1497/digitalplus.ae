@@ -3,7 +3,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 550;
-  max-width: 1321px;
+  max-width: 100%;
 }
 .logo-img{
   height: 40px;
@@ -669,7 +669,8 @@ body{
   }
   .about-contant .small-title {
     color: orange;
-    font-size: 18px;
+    font-size: 15px;
+    text-align: initial;
   }
   .about-contant h2 {
     font-weight: 600;
@@ -744,6 +745,24 @@ body{
   }
   .col-md-2 .col-lg-2 .col-sm-12 .mx-auto .mb-4{
     text-align: initial;
+  }
+  .form {
+    height: 390px;
+    background-color: #f68b1f;
+    margin-top: 220px;
+  }
+  .btn-danger{
+    margin-left: 610px;
+    margin-top: 15px; 
+    width: 130px;
+    height: 40px;
+  }
+  .get-start h1{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-size: 1.75rem;
+    font-weight: 800;
   }
 
   

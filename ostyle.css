@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap");
+body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  /* max-width: 1200px; */
+}
+.i:hover{
+    background-color: orange;
+  }
+.logo-img{
+    height: 40px;
+    object-fit: contain;
+  }
+
+  
+  .icon-bar {
+    position: fixed;
+    top: 40%;
+    left: 0px;
+    z-index: 99;
+  }
+  .icon-bar div {
+    display: block;
+    text-align: center;
+    padding: 10px 13px;
+    transition: all 0.3s ease;
+    color: white;
+    border: 1px solid #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  .phone{
+    background-color: #0000ff;
+  }
+  .whatapp{
+    background-color: #008000;
+  }
+  .message{
+    background-color: #ff0000;
+  }
+  .order li{
+    display: flex;
+
+  }
+
+  
+  
+  /* about css */
+  .about-image img{
+    width: 226px;
+    height: auto;
+    /* margin-left: 15px; */
+  }
+  .about-contant{
+    text-align: center;
+  }
+  .about-contant .small-title{
+    color: orange;
+    font-size: 13px;
+  
+  }
+  .about-contant p{
+    color: #4b5280;
+    font-size: 14px;
+  }
+  .about-contant h2{
+    font-weight: 600;
+  }
+  .list h3{
+    color: #4b5280;
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  .container{
+    margin-top: 300px;
+}
+.animation{
+    background-color: #080e32;
+}
+.card-body .card-title
+{
+    font-weight: 800;
+    color: #f68b1f;
+}
+.card-text{
+    color: #0056b3;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+@media(min-width: 236px){
+    .logo-img{
+      max-width: 126px;
+    }
+    .container{
+        position: relative;
+        bottom: 140px;
+    }
+    .container h1 {
+      font-size: 27px;
+      font-weight: 900;
+      color: white;
+      margin-left: 55px;
+      position: relative;
+      top: 65px;
+      text-align: initial;
+    }
+    .plat{
+        text-align: initial;
+        margin-left: 35px;
+    }
+    .plat h2{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .plat p{
+        font-weight: 400;
+    }
+
+   
+
+      
+
+
+
+}
+@media(min-width: 576px){
+    .container{
+        text-align: center;
+    }
+    .plat{
+        text-align: initial;
+        margin-left: 35px;
+    }
+    .plat h2{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .plat p{
+        font-weight: 400;
+    }
+
+
+
+
+
+}
+
+@media(min-width: 768px){
+    .container{
+        text-align: center;
+    }
+    .plat{
+        text-align: initial;
+        margin-left: 35px;
+    }
+    .plat h2{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .plat p{
+        font-weight: 400;
+    }
+
+      
+
+
+    
+}
+
+@media(min-width: 992px){
+    .container{
+        text-align: initial;
+    }
+    .plat{
+        text-align: initial;
+        margin-left: 35px;
+    }
+    .plat h2{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .plat p{
+        font-weight: 400;
+    }
+
+    
+
+
+
+@media(min-width: 1200px){
+
+  .container h1 {
+    font-size: 42px;
+    font-weight: 900;
+    color: white;
+    margin-left: 55px;
+    position: relative;
+    top: 65px;
+    text-align: initial;
+  }
+
+  .logo-img {
+    max-width: 190px;
+  }
+    .container{
+        text-align: initial;
+    }
+    .plat{
+        display: flex;
+        text-align: initial;
+        margin-left: 35px;
+    }
+    .plat h2{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .plat p{
+        font-weight: 400;
+    }
+
+
+    
+}
+
+@media(min-width: 1348px){
+    .container{
+        text-align: initial;
+    }
+    .plat{
+        text-align: initial;
+        margin-left: 35px;
+    }
+    .plat h2{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .plat p{
+        font-weight: 400;
+    }
+
+}
+
+}

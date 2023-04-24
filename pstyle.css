@@ -237,6 +237,24 @@ body{
       .sub-title p{
         font-size: 16px;
       }
+      .get-start h1{
+        text-align: center;
+        position: relative;
+        top: 90px;
+        font-size: 1.75rem;
+        font-weight: 800;
+      }
+      form {
+        height: 490px;
+        /* background-color: #f68b1f; */
+        margin-top: -90px;
+      }
+      .btn-danger{
+        margin-left: 55px;
+        margin-top: 15px; 
+        width: 130px;
+        height: 40px;
+      }
 
       
 
@@ -280,6 +298,19 @@ body{
       .contact-image img{
         max-width: 500px;
       }
+      .btn-danger{
+        margin-left: 215px;
+        margin-top: 15px; 
+        width: 130px;
+        height: 40px;
+      }
+      .get-start h1{
+        text-align: center;
+        position: relative;
+        top: 120px;
+        font-size: 1.75rem;
+        font-weight: 800;
+      }
 
 
 }
@@ -322,6 +353,19 @@ body{
       }
       .contact-image img{
         max-width: 685px;
+      }
+      .btn-danger{
+        margin-left: 315px;
+        margin-top: 15px; 
+        width: 130px;
+        height: 40px;
+      }
+      .get-start h1{
+        text-align: center;
+        position: relative;
+        top: 140px;
+        font-size: 1.75rem;
+        font-weight: 800;
       }
       
 
@@ -371,6 +415,19 @@ body{
       }
       .contact-image img{
         max-width: 500px;
+      }
+      .btn-danger{
+        margin-left: 430px;
+        margin-top: 15px; 
+        width: 130px;
+        height: 40px;
+      }
+      .get-start h1{
+        text-align: center;
+        position: relative;
+        top: 140px;
+        font-size: 1.75rem;
+        font-weight: 800;
       }
 
 
@@ -441,6 +498,24 @@ body{
       }
       .contact-image img{
         max-width: 587px;
+      }
+      .form {
+        height: 390px;
+        background-color: #f68b1f;
+        margin-top: 220px;
+      }
+      .btn-danger{
+        margin-left: 570px;
+        margin-top: 15px; 
+        width: 130px;
+        height: 40px;
+      }
+      .get-start h1{
+        text-align: center;
+        position: relative;
+        top: 150px;
+        font-size: 1.75rem;
+        font-weight: 800;
       }
     
 }
