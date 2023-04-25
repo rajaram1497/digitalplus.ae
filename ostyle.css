@@ -97,6 +97,8 @@ body{
 
 
 
+
+
 @media(min-width: 236px){
     .logo-img{
       max-width: 126px;
@@ -192,6 +194,15 @@ body{
     .plat p{
         font-weight: 400;
     }
+    .container h1 {
+      font-size: 43px;
+      font-weight: 900;
+      color: white;
+      margin-left: 411px;
+      position: relative;
+      top: 65px;
+      text-align: initial;
+    }
 
     
 
@@ -226,6 +237,20 @@ body{
     }
     .plat p{
         font-weight: 400;
+    }
+    .btn-danger{
+      margin-left: 598px;
+      margin-top: 15px; 
+      width: 130px;
+      height: 40px;
+    }
+    .get-start h1{
+      text-align: center;
+      position: relative;
+      top: 150px;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: black;
     }
 
 

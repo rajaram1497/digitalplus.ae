@@ -279,20 +279,21 @@ body{
       .small-title{
         font-size: 19px;
       }
-      .get-start h1{
+      /* .get-start h1{
         text-align: center;
         position: relative;
         top: 145px;
         font-size: 1.75rem;
         font-weight: 800;
-      }
+      } */
       .form {
         height: 390px;
         background-color: #f68b1f;
         margin-top: 220px;
+        margin-left: 430px;
       }
       .btn-danger{
-        margin-left: 570px;
+        margin-left: 606px;
         margin-top: 15px; 
         width: 130px;
         height: 40px;
@@ -304,6 +305,7 @@ body{
         font-size: 1.75rem;
         font-weight: 800;
       }
+      
 }
 
 @media(min-width: 1400px){
